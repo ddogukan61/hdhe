@@ -1,5 +1,5 @@
 Variable = {}
-Variable["LoginURL"]= "https://snug-chalk.000webhostapp.com/Login.php"
+Variable["LoginURL"]= "http://besira.ga/v/Login.php"
 Prompt = gg.prompt({"👤 Kullanıcı Adı"," 🔑 Şifre","🚪Çıkış"},nil,{"text","text","checkbox"})
  if not Prompt then
  return
